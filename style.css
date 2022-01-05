@@ -1,0 +1,86 @@
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-family: 'yeseva one';
+    font-weight: 400px;
+    
+}
+.orange{
+    color: rgb(22, 55, 243);
+}
+.green{
+    color: rgb(255, 130, 47);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.explore-now{
+    text-decoration: none;
+    background-color: lime;
+    background-image: linear-gradient(pink green);
+    padding: 10px 40px;
+    border-radius: 5px;   
+}.border-left{
+    border-left: 5px solid;
+    color: orange;
+}
+.mission{
+    color: orchid;
+}
+.small{
+    padding-left: 20px;
+    font-style: italic;
+    background-color: peru;
+}
+.in-mission{
+    text-align: center;
+    font-size: 30px;
+    font-style: initial;
+    color: purple;
+}
+.half{
+    font-size: 20px;
+    
+}
+.half img{
+    width: 50%;
+}
+.img{
+    width: 40%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.img2{
+    width: 40%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.img3{
+    width: 40%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.develop img{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
