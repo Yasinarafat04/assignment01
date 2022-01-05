@@ -14,12 +14,13 @@ h1{
 .green{
     color: rgb(255, 130, 47);
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    margin-top: 5%;
 }
 .half-width img{
     width: 70%;
@@ -41,6 +42,7 @@ section{
     padding-left: 20px;
     font-style: italic;
     background-color: peru;
+    margin-top: 10%;
 }
 .in-mission{
     text-align: center;
@@ -62,6 +64,7 @@ section{
     margin-right: 5%;
     padding-left: 10px;
     box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
 }
 .img2{
     width: 40%;
@@ -70,6 +73,7 @@ section{
     margin-right: 5%;
     padding-left: 10px;
     box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
 }
 .img3{
     width: 40%;
@@ -78,9 +82,22 @@ section{
     margin-right: 5%;
     padding-left: 10px;
     box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
 }
-.develop img{
-    width: 30%;
-    margin-top: 5%;
+.develop{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.develop2{
+    margin-right: 70%;
+}
+.community{
     margin-left: 5%;
+    
+}
+style{
+    margin-top: 10px;
 }
